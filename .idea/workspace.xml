@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc65b96e-07fb-4e29-a7b0-db0993024180" name="Changes" comment="updated the ui">
-      <change afterPath="$PROJECT_DIR$/lib/utils.ts" afterDir="false" />
+    <list default="true" id="bc65b96e-07fb-4e29-a7b0-db0993024180" name="Changes" comment="updated the connection with puter hosting">
+      <change afterPath="$PROJECT_DIR$/lib/ai.action.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/visualizer.$id.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/visualizer.$id.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +90,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777229486269</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updated the connection with puter hosting">
+      <option name="closed" value="true" />
+      <created>1777298539123</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1777298539123</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,7 +107,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated" />
     <MESSAGE value="updated the ui" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated the ui" />
+    <MESSAGE value="updated the connection with puter hosting" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated the connection with puter hosting" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
