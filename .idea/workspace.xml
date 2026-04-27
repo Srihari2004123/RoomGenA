@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc65b96e-07fb-4e29-a7b0-db0993024180" name="Changes" comment="updated the connection with puter hosting">
-      <change afterPath="$PROJECT_DIR$/lib/ai.action.ts" afterDir="false" />
+    <list default="true" id="bc65b96e-07fb-4e29-a7b0-db0993024180" name="Changes" comment="changing ui design to 3d">
+      <change afterPath="$PROJECT_DIR$/.env.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/puter.worker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/visualizer.$id.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/visualizer.$id.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777298539123</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="changing ui design to 3d">
+      <option name="closed" value="true" />
+      <created>1777300160767</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1777300160767</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,7 +116,8 @@
     <MESSAGE value="updated" />
     <MESSAGE value="updated the ui" />
     <MESSAGE value="updated the connection with puter hosting" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated the connection with puter hosting" />
+    <MESSAGE value="changing ui design to 3d" />
+    <option name="LAST_COMMIT_MESSAGE" value="changing ui design to 3d" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
