@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc65b96e-07fb-4e29-a7b0-db0993024180" name="Changes" comment="changing ui design to 3d">
-      <change afterPath="$PROJECT_DIR$/.env.local" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/puter.worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bc65b96e-07fb-4e29-a7b0-db0993024180" name="Changes" comment="created an own api through puter.com" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,18 +102,55 @@
       <option name="project" value="LOCAL" />
       <updated>1777300160767</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="created an own api through puter.com">
+      <option name="closed" value="true" />
+      <created>1777301661703</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1777301661703</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="c36cc43e-353b-4b4e-a8e6-5ce3bc486fc1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="c36cc43e-353b-4b4e-a8e6-5ce3bc486fc1">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="range">
+                    <value>
+                      <list>
+                        <option value="ac03d7e2539d506cdc45491457419bdb1d4511fe..cc9562665505c0f8eba806d02d11917d4217e6a5" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated" />
     <MESSAGE value="updated the ui" />
     <MESSAGE value="updated the connection with puter hosting" />
     <MESSAGE value="changing ui design to 3d" />
-    <option name="LAST_COMMIT_MESSAGE" value="changing ui design to 3d" />
+    <MESSAGE value="created an own api through puter.com" />
+    <option name="LAST_COMMIT_MESSAGE" value="created an own api through puter.com" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
