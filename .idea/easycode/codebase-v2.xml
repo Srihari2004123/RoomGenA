@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.obiscr.chatgpt.settings.EasyCodeState">
+    <option name="projectFiles" value="$PROJECT_DIR$/app/routes/home.tsx;C:/Users/Srihari/Desktop/RoomGenA/app/routes/visualizer.$id.tsx;C:/Users/Srihari/Desktop/RoomGenA/app/welcome/welcome.tsx;C:/Users/Srihari/Desktop/RoomGenA/app/app.css;C:/Users/Srihari/Desktop/RoomGenA/app/root.tsx;C:/Users/Srihari/Desktop/RoomGenA/app/routes.ts;C:/Users/Srihari/Desktop/RoomGenA/components/ui/Button.tsx;C:/Users/Srihari/Desktop/RoomGenA/components/Navbar.tsx;C:/Users/Srihari/Desktop/RoomGenA/components/upload.tsx;C:/Users/Srihari/Desktop/RoomGenA/lib/ai.action.ts;C:/Users/Srihari/Desktop/RoomGenA/lib/constants.ts;C:/Users/Srihari/Desktop/RoomGenA/lib/puter.action.ts;C:/Users/Srihari/Desktop/RoomGenA/lib/puter.hosting.ts;C:/Users/Srihari/Desktop/RoomGenA/lib/puter.worker.js;C:/Users/Srihari/Desktop/RoomGenA/lib/utils.ts;C:/Users/Srihari/Desktop/RoomGenA/package-lock.json;C:/Users/Srihari/Desktop/RoomGenA/package.json;C:/Users/Srihari/Desktop/RoomGenA/react-router.config.ts;C:/Users/Srihari/Desktop/RoomGenA/README.md;C:/Users/Srihari/Desktop/RoomGenA/tsconfig.json;C:/Users/Srihari/Desktop/RoomGenA/type.d.ts;C:/Users/Srihari/Desktop/RoomGenA/vite.config.ts" />
+  </component>
+</project>
