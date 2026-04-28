@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc65b96e-07fb-4e29-a7b0-db0993024180" name="Changes" comment="created an own api through puter.com">
-      <change beforePath="$PROJECT_DIR$/.env.local" beforeDir="false" afterPath="$PROJECT_DIR$/.env.local" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ai.action.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ai.action.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/puter.action.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/puter.action.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/puter.worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/puter.worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +125,31 @@
       <option name="project" value="LOCAL" />
       <updated>1777302233017</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="created an own api through puter.com">
+      <option name="closed" value="true" />
+      <created>1777386489152</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1777386489152</updated>
+    </task>
+    <task id="LOCAL-00008" summary="created an own api through puter.com">
+      <option name="closed" value="true" />
+      <created>1777386499799</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1777386499799</updated>
+    </task>
+    <task id="LOCAL-00009" summary="created an own api through puter.com">
+      <option name="closed" value="true" />
+      <created>1777386673849</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1777386673849</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
