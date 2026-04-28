@@ -1,6 +1,9 @@
 import puter from "@heyputer/puter.js";
-import {ROOMIFY_RENDER_PROMPT} from "./constants";
+import { ROOMIFY_RENDER_PROMPT } from "./constants";
 
+
+
+// ✅ Convert image URL → base64
 export const fetchAsDataUrl = async (url: string): Promise<string> => {
     const response = await fetch(url);
 
@@ -18,30 +21,67 @@ export const fetchAsDataUrl = async (url: string): Promise<string> => {
     });
 };
 
+
+
+// ✅ MAIN FUNCTION (FIXED)
 export const generate3DView = async ({ sourceImage }: Generate3DViewParams) => {
-    const dataUrl = sourceImage.startsWith('data:')
-        ? sourceImage
-        : await fetchAsDataUrl(sourceImage);
+    try {
+        // 🔹 Ensure base64
+        const dataUrl = sourceImage.startsWith("data:")
+            ? sourceImage
+            : await fetchAsDataUrl(sourceImage);
 
-    const base64Data = dataUrl.split(',')[1];
-    const mimeType = dataUrl.split(';')[0].split(':')[1];
+        // 🔹 Safe extraction using regex
+        const match = dataUrl.match(/^data:(.*?);base64,(.*)$/);
 
-    if(!mimeType || !base64Data) throw new Error('Invalid source image payload');
+        if (!match) {
+            throw new Error("Invalid source image payload");
+        }
 
-    const response = await puter.ai.txt2img(ROOMIFY_RENDER_PROMPT, {
-        provider: "gemini",
-        model: "gemini-2.5-flash-image-preview",
-        input_image: base64Data,
-        input_image_mime_type: mimeType,
-        ratio: { w: 1024, h: 1024 },
-    });
+        const mimeType = match[1];
+        const base64Data = match[2];
 
-    const rawImageUrl = (response as HTMLImageElement).src ?? null;
+        // 🔹 Call AI
+        const response = await puter.ai.txt2img(ROOMIFY_RENDER_PROMPT, {
+            provider: "gemini",
+            model: "gemini-2.5-flash-image-preview",
+            input_image: base64Data,
+            input_image_mime_type: mimeType,
+            ratio: { w: 1024, h: 1024 },
+        });
 
-    if (!rawImageUrl) return { renderedImage: null, renderedPath: undefined };
+        // 🔹 Handle ALL possible response formats
+        let rawImageUrl: string | null = null;
 
-    const renderedImage = rawImageUrl.startsWith('data:')
-        ? rawImageUrl : await fetchAsDataUrl(rawImageUrl);
+        if (typeof response === "string") {
+            rawImageUrl = response;
+        } else if ((response as any)?.src) {
+            rawImageUrl = (response as any).src;
+        } else if ((response as any)?.url) {
+            rawImageUrl = (response as any).url;
+        }
 
-    return { renderedImage, renderedPath: undefined };
-}
+        if (!rawImageUrl) {
+            console.error("No image returned from AI");
+            return { renderedImage: null, renderedPath: undefined };
+        }
+
+        // 🔹 Convert to base64 if needed
+        const renderedImage = rawImageUrl.startsWith("data:")
+            ? rawImageUrl
+            : await fetchAsDataUrl(rawImageUrl);
+
+        return {
+            renderedImage,
+            renderedPath: undefined,
+        };
+
+    } catch (error) {
+        console.error("AI generation failed:", error);
+
+        return {
+            renderedImage: null,
+            renderedPath: undefined,
+        };
+    }
+};
